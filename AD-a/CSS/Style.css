@@ -387,7 +387,6 @@ justify-content: center;
   min-width:70%;
   min-height:100%;
 border-radius:10px;
-flex-shrink: 0;
 }
 .block2{
   background-image: url('../img/t-2.jpg');
