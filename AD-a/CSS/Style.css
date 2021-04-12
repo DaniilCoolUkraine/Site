@@ -76,8 +76,8 @@ h5,
 h6 {
   font-size: inherit;
   font-weight: 400;
-}
-
+} 
+                          
 body{
   height:4500px;
   min-width:100%;
@@ -86,7 +86,6 @@ font-family: 'Titillium Web', sans-serif;
 display: flex;
 align-items: center;
 justify-content: center;
-flex-shrink: 0;
 }
 
 .progress{
@@ -102,7 +101,6 @@ flex-shrink: 0;
   height:100%;
   width:97%;
   display: flex;
-  flex-shrink: 0;
   flex-direction:column;
   justify-content:space-around;
   overflow: hidden;
@@ -111,7 +109,6 @@ flex-shrink: 0;
   height:10%;
   width:60%;
   display: flex;
-  flex-shrink: 0;
   align-items: center;
   justify-content:space-around;
   font-family: 'Chakra Petch', sans-serif;
@@ -119,7 +116,6 @@ flex-shrink: 0;
 .header_translate p{
   height:100%;
   display: flex;
-  flex-shrink: 0;
   align-items: center;
   justify-content: center;
   font-size:25px;
@@ -130,7 +126,6 @@ flex-shrink: 0;
 }
 .content{
   display: flex;
-  flex-shrink: 0;
   flex-direction:column;
   width:100%;
   height:95%;
@@ -140,7 +135,6 @@ flex-shrink: 0;
 }
 .PUNCT{
   display: flex;
-  flex-shrink: 0;
   flex-direction:column;
   align-items: center;
   justify-content: center;
@@ -151,7 +145,6 @@ flex-shrink: 0;
 
 .P_HAT{
   display: flex;
-  flex-shrink: 0;
   flex-direction:column;
   align-items: center;
   width:100%;
@@ -165,27 +158,24 @@ flex-shrink: 0;
   min-width:100%;
   min-height:100%;
   display:inline-flex;
-  flex-shrink: 0;
   justify-content:center;
   align-items: center;
   background-image: url('../img/post54.jpeg');
   background-repeat:no-repeat;
-  background-size:cover;
+  background-size:cover; 
 }
 .P_HAT_inf{
   width:100%;
   height:100%;
   display:flex;
-  flex-shrink: 0;
   flex-direction:column;
   justify-content:space-around;
   align-items: center;
   background-color:rgba(0,0,0,0.8);
   overflow: hidden;
-}
+} 
 .HAT_title{
   display: flex;
-  flex-shrink: 0;
   align-items: center;
   justify-content: center;
   min-width:80%;
@@ -193,7 +183,6 @@ flex-shrink: 0;
 }
 .HAT_title_text{
   display: flex;
-  flex-shrink: 0;
   align-items: center;
   justify-content: center;
   min-width:100%;
@@ -206,7 +195,6 @@ flex-shrink: 0;
 }
 .HAT_info{
   display: flex;
-  flex-shrink: 0;
   justify-content:space-evenly;
   width:50%;
   height:25%;
@@ -214,7 +202,6 @@ flex-shrink: 0;
 }
 .HAT_info_left{
   display: flex;
-  flex-shrink: 0;
   align-items: center;
   justify-content:space-evenly;
   height:100%;
@@ -223,7 +210,6 @@ flex-shrink: 0;
 }
 .HAT_info_right{
   display: flex;
-  flex-shrink: 0;
   align-items: center;
   justify-content:space-evenly;
   height:100%;
@@ -233,7 +219,6 @@ flex-shrink: 0;
 .HAT_info_text{
   transition:0.3s;
   display: flex;
-  flex-shrink: 0;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -253,7 +238,6 @@ flex-shrink: 0;
   height:25%;
   font-weight:500;
   display: flex;
-  flex-shrink: 0;
   flex-direction:column;
   align-items: center;
   justify-content: space-evenly;
@@ -271,7 +255,6 @@ flex-shrink: 0;
   height:7%;
   width:100%;
   display: flex;
-  flex-shrink: 0;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -283,7 +266,6 @@ flex-shrink: 0;
 .PUNCT_text{
   text-align: center;
   display: flex;
-  flex-shrink: 0;
   align-items: center;
   justify-content: center;
   font-weight:500;
@@ -295,7 +277,6 @@ flex-shrink: 0;
 }
 .PUNCT_info{
   display: flex;
-  flex-shrink: 0;
   flex-direction:column;
   align-items: center;
   width:100%;
@@ -303,7 +284,6 @@ flex-shrink: 0;
 }
 .Punct_content{
   display: flex;
-  flex-shrink: 0;
   flex-direction:column;
   align-items: center;
   width:100%;
@@ -311,10 +291,9 @@ flex-shrink: 0;
 }
 .PUNCT_info_type{
     display: flex;
-    flex-shrink: 0;
   flex-direction:column;
   width:100%;
-  height:25%;
+  height:25%; 
 }
 .title{
     background-color:rgba(102, 255, 204,0.2);
@@ -327,7 +306,6 @@ flex-shrink: 0;
 }
 .title_text{
   display: flex;
-  flex-shrink: 0;
   align-items: center;
   justify-content: center;
   text-align:center;
@@ -343,7 +321,6 @@ flex-shrink: 0;
   background-size:cover;
   justify-content:space-evenly;
   display: flex;
-  flex-shrink: 0;
   width:100%;
   flex-direction:column;
   height:75%;
@@ -353,7 +330,6 @@ flex-shrink: 0;
 .unit1{
   align-items: center;
   display: flex;
-  flex-shrink: 0;
   justify-content: space-around;
   flex-direction:row;
   width:100%;
@@ -363,7 +339,6 @@ flex-shrink: 0;
 
 .unit2{
   display: flex;
-  flex-shrink: 0;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -374,7 +349,6 @@ flex-shrink: 0;
 .unit2_text{
   order:2;
   display: flex;
-  flex-shrink: 0;
   text-align: center;
     align-items: center;
   height:35%;
@@ -441,7 +415,6 @@ border-radius:10px;
 
 .return{
   display: flex;
-  flex-shrink: 0;
   justify-content:space-around;
   height:5%;
   width:100%;
@@ -455,10 +428,10 @@ border-radius:10px;
 }
 .Href{
   display: flex;
-  flex-shrink: 0;
   border:3px solid rgba(102, 255, 204,1);
   border-radius:20px;
   background-color:rgba(102, 255, 204,0.2);
+  display: flex;
   justify-content: center;
   align-items: center;
   width:33%;
@@ -473,7 +446,6 @@ border-radius:10px;
   font-size:60px;
   transition:0.5s;
   display: flex;
-  flex-shrink: 0;
   align-items: center;
   justify-content: center;
   width:100%;
@@ -481,7 +453,6 @@ border-radius:10px;
 }
 .return_text_left{
   display: flex;
-  flex-shrink: 0;
   justify-content: center;
   align-items: center;
   height:35%;
@@ -494,7 +465,6 @@ border-radius:10px;
 }
 .return_text_right{
   display: flex;
-  flex-shrink: 0;
   justify-content: center;
   align-items: center;
   height:35%;
@@ -535,7 +505,6 @@ text-decoration: none;
 font-size:25px;
 transition:0.5s;
 display: flex;
-flex-shrink: 0;
 align-items: center;
 justify-content: center;
 width:100%;
@@ -547,7 +516,6 @@ color:rgba(102, 255, 204,1);
 text-decoration: none;
 font-size:25px;
 display: flex;
-flex-shrink: 0;
 align-items: center;
 justify-content: center;
 width:100%;
@@ -585,7 +553,6 @@ height:100%;
 }
 .HAT_info{
   display: flex;
-  flex-shrink: 0;
   justify-content:space-evenly;
   width:70%;
   height:25%;
@@ -616,7 +583,6 @@ height:100%;
 }
 .HAT_info{
   display: flex;
-  flex-shrink: 0;
   justify-content:space-around;
   width:80%;
   height:25%;
@@ -700,7 +666,7 @@ height:100%;
 }
 }
 @media(max-width:450px){
-}
+} 
 @media(max-width:400px){
   .HAT_title p{
   font-size:25px;
@@ -709,7 +675,7 @@ height:100%;
 .Href a{
   font-size:20px;
 }
-}
+} 
 .return_text_left,.header_ru,.return_text_right,.footer_en,.header_en,.header_ua,.menu_btn{
   cursor:pointer;
 }
@@ -719,3 +685,4 @@ height:100%;
 .ua{
   display: none;
 }
+
