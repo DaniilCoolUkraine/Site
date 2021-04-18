@@ -389,7 +389,6 @@ justify-content: center;
   flex-shrink: 0;
   max-width: 50%;
   min-height: 0;
-  border-radius:10px;
 }
 .block2{
   /*background-image: url('../img/house.png');
@@ -404,6 +403,7 @@ justify-content: center;
 .block1>img, .block2>img
 {
   width: 100%;
+  border-radius:10px;
 }
 .block3{
   background-image: url('../img/TW.jpg');
