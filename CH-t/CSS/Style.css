@@ -335,6 +335,7 @@ justify-content: center;
   height:37.5%;
   justify-content: flex-start;
   align-items: flex-start;
+  flex-shrink: 1;
   order:1;
 }
 
@@ -351,7 +352,7 @@ justify-content: center;
   order:2;
   display: flex;
   text-align: center;
-    align-items: center;
+  align-items: center;
   height:35%;
   width: 100%;
   color: rgba(102, 255, 204,0.75);
@@ -382,21 +383,16 @@ justify-content: center;
   background-size:100% 100%;
 }
 .block1{
-  /*background-image: url('../img/fg.jpg');
-  background-repeat: no-repeat;
-  background-size:100% 100%;
-  */
-  flex-shrink: 0;
-  max-width: 50%;
+  max-width: 49%;
   min-height: 0;
+  margin-right: 2%;
 }
 .block2{
   /*background-image: url('../img/house.png');
   background-repeat: no-repeat;
   background-size:100% 100%;
   */
-  flex-shrink: 0;
-  max-width: 50%;
+  max-width: 49%;
   min-height: 0;
   border-radius:10px;
 }
