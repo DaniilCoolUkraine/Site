@@ -29,7 +29,6 @@ aside {
 
 html,
 body {
-  height: 100%;
   width: 100%;
   font-size: 100%;
   line-height: 1;
@@ -79,7 +78,6 @@ h6 {
 }
 
 body{
-  height:4500px;
   min-width:100%;
 font-family: 'Titillium Web', sans-serif;
   background-color:black;
@@ -87,7 +85,6 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
-
 .progress{
   position: fixed;
   left: 0;
@@ -112,7 +109,6 @@ justify-content: center;
   align-items: center;
   justify-content:space-around;
   font-family: 'Chakra Petch', sans-serif;
-
 }
 .header_translate p{
   height:100%;
@@ -149,7 +145,7 @@ justify-content: center;
   flex-direction:column;
   align-items: center;
   width:100%;
-  min-height:15%;
+  height:70vh;
   border:3px solid rgba(102, 255, 204,1);
   border-bottom:none;
   position: relative;
@@ -294,7 +290,7 @@ justify-content: center;
   display: flex;
   flex-direction:column;
   width:100%;
-  height:25%;
+  height:100vh;
 }
 .title{
   background-color:rgba(102, 255, 204,0.2);
@@ -304,6 +300,9 @@ justify-content: center;
   border:3px solid rgba(102, 255, 204,1);
   border-bottom:none;
   border-top:none;
+}
+#Specific{
+  margin-top: 30px;
 }
 .title_text{
   display: flex;
@@ -335,7 +334,9 @@ justify-content: center;
   align-items: center;
   justify-content: space-around;
   flex-direction:row;
+  margin-top: 30px;
   flex: 1;
+  flex-shrink:1;
 }
 .unit2{
   width:100%;
@@ -344,7 +345,9 @@ justify-content: center;
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin-top: 30px;
   flex: 1;
+  flex-shrink:1;
 }
 .unit2_text{
   width: 100%;
@@ -384,7 +387,8 @@ justify-content: center;
   background-size:100% 100%;
   min-width:45%;
   min-height:100%;
-border-radius:10px;
+  border-radius:10px;
+flex-shrink:1;
 }
 .block2{
   background-image: url('../img/house.png');
@@ -392,7 +396,8 @@ border-radius:10px;
   background-size:100% 100%;
   min-width:45%;
   min-height:100%;
-border-radius:10px;
+  border-radius:10px;
+flex-shrink:1;
 }
 .block3{
   background-image: url('../img/TW.jpg');
@@ -400,7 +405,8 @@ border-radius:10px;
   background-size:100% 100%;
   min-width:45%;
   min-height:100%;
-border-radius:10px;
+  border-radius:10px;
+flex-shrink:1;
 }
 .block4{
   background-image: url('../img/ch-5.jpg');
@@ -408,7 +414,9 @@ border-radius:10px;
   background-size:100% 100%;
   min-width:45%;
   min-height:100%;
-border-radius:10px;
+  border-radius:10px;
+
+flex-shrink:1;
 }
 .block5{
   background-image: url('../img/speak.png');
@@ -416,7 +424,8 @@ border-radius:10px;
   background-size:100% 100%;
   min-width:45%;
   min-height:100%;
-border-radius:10px;
+  border-radius:10px;
+flex-shrink:1;
 }
 .block6{
   background-image: url('../img/girl.png');
@@ -424,7 +433,8 @@ border-radius:10px;
   background-size:100% 100%;
   min-width:45%;
   min-height:100%;
-border-radius:10px;
+  border-radius:10px;
+flex-shrink:1;
 }
 .block7{
   background-image: url('../img/fake.png');
@@ -432,8 +442,8 @@ border-radius:10px;
   background-size:100% 100%;
   min-width:45%;
   min-height:100%;
-border-radius:10px;
-
+  border-radius:10px;
+flex-shrink:1;
 }
 .block8{
   background-image: url('../img/dan.png');
@@ -441,13 +451,13 @@ border-radius:10px;
   background-size:100% 100%;
   min-width:45%;
   min-height:100%;
-border-radius:10px;
-
+  border-radius:10px;
+  flex-shrink:1;
 }
 .return{
   display: flex;
   justify-content:space-around;
-  height:5%;
+  height:20vh;
   width:100%;
   align-items: center;
   border-top:3px solid rgba(102, 255, 204,1);
